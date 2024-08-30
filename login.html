@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+ <link rel="stylesheet" href="./CSS Files/login.css">
+</head>
+<body>
+    <main>
+    <section-1>
+    <div class="left">
+        <div class="user">
+            <img src="./images/user3.webp" alt="User Logo">
+        </div>
+        <div class="title">Student Registration System</div>
+        <div class="sub">Don't have an account?</div>
+        <a href="./Register.html" target="_blank"><div class="button">Register Now</div></a>
+    </div>
+    </section-1>
+
+    <form action="">
+    <div class="right">
+        <div class="login">Login Your Account</div>
+        <small>Sign In To Continue Your Progress</small>
+        
+        <div class="data">
+        <div class="label"><label for="id">Student ID</label></div>
+        <input class="input" type="text" id="id" name="ID" required autofocus title="Enter Your Correct ID" pattern="[A-z]{3,10} [A-z]{3,10}">
+        </div>
+
+        <div class="label"><label for="password">Password</label></div>
+        <input class="input" type="password" id="password" required title="Must Contain At Least One Number And One Uppercase And Lowercase Letter, And At Least 8 Or More Characters" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        
+        <div class="check">
+            <input type="checkbox" id="check">
+            <label for="check">Show Password</label>
+        </div>
+
+        <div class="sign">
+            <div class="button">Sign In</div>
+        </div>
+         </div>
+         </form>
+      
+</section-2>
+    </main>
+</body>
+</html>

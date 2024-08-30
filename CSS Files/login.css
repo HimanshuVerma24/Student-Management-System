@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+.left{
+    width: 45vw;
+    height: 100vh;
+    background: rgb(12,106,202);
+    background: linear-gradient(180deg, rgba(12,106,202,1) 0%, rgba(25,86,179,1) 50%, rgba(39,62,155,1) 100%);
+
+}
+.user *{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 155px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'poppins';
+    font-size: 30px;
+}
+.sub{
+    padding-top: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'poppins';
+    word-spacing: 2px;
+    letter-spacing: .5px;
+}
+.button{
+    width: 40vw;
+    height: 60px;
+    border: 2px solid ;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    /* background-color:#a11730; */
+    background-color:#af263f;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: white;
+    background-color:#8f1b30;
+    
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.login{
+margin: 80px 0px 0px 80px;
+font-size: 55px;
+font-family: 'poppins';
+font-weight: bolder;
+line-height: 65px;
+}
+small{
+margin-left: 80px;
+font-family: 'poppins';
+font-size: 16px;
+font-weight: 500;
+}
+.input{
+width: 40vw;
+height: 6vh;
+background-color: #cdccda;
+border: none;
+border-radius: 7px 7px;
+margin-left: 80px;
+font-size: 25px;
+text-indent: 10px;
+}
+.data{
+margin-top: 40px;
+}
+.label{
+text-indent: 3px;
+font-size: 18px;
+padding-left: 80px;
+font-family: 'poppins';
+}
+.check{
+margin: 30px 0px 0px 470px;
+font-family: 'poppins';
+
+}
+.sign{
+margin: 10px 0px 0px 80px;
+}
+input:valid{
+background-color: #b9b8c4;
+}
+a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color: black;
+}

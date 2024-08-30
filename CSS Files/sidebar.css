@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+body{
+    min-height: 100vh;
+}
+.sidebar{
+    position: absolute;
+    width: 60px;
+    height: 89vh;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    background-color: #fff;
+    z-index: 20;
+}
+.sidebar:hover{
+    overflow-y: auto;
+    width: 300px;
+    
+}
+.sidebar:hover::-webkit-scrollbar{
+   height: 30px;
+}
+.sidebar ul{
+    position: relative;
+    height: 100vh;
+}
+.sidebar ul li{
+    list-style: none;
+}
+.sidebar ul li:hover{
+    background: #d3d3d3;
+}
+.sidebar ul li .side-content{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.sidebar ul li .side-content .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: #333;
+}
+.sidebar ul li .text{
+    position: relative;
+    left: 15px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 1em;
+    font-weight: 510;
+}
+.sidebar ul li.logo{
+    margin-bottom: 40px;
+    background-color: #fff;
+    user-select: none;
+}
+.sidebar ul li.logo:hover{
+    color: #131;
+}
+.sidebar ul li.logo .icon{
+    font-size: 1.5em;
+}
+.sidebar ul li.logo .text{
+    margin-top: 4px;
+    font-size: 23px;
+    font-weight: 600;  
+}
+.bottom{
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+}
+.bottom .imgbx{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+.bottom .imgbx .pfp{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: none;
+}
+input{
+    position: absolute;
+    left: 61px;
+    width: 200px;
+    border-radius: 50px 50px;
+    height: 30px;
+    border: none;
+    text-indent: 10px;
+    font-size: 18px;
+}
+input:hover::placeholder{
+    display: flex;
+    color: #333;
+    cursor: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+

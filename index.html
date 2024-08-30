@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./CSS Files/index.css">
+    <link rel="stylesheet" href="./CSS Files/sidebar.css">
+    
+   
+</head>
+<body>
+    <header>
+            <h2 class="logo">Logo</h2>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+            <a href="./login.html" ><button class="btn">Login</button></a>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li class="logo">
+                <a class="side-content">
+                    <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
+                    <span class="text">Student Leader</span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content">
+                    <label for="search"><span class="icon"><ion-icon name="search-outline"></ion-icon></span></label>
+                    <span class="search"><input id="search" type="text" placeholder="Search" pattern="[A-z]{1,100}"></span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="text">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                    <span class="text">Inbox</span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon"><ion-icon name="calendar-outline"></ion-icon></span>
+                    <span class="text">Timetable</span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                    <span class="text">Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+
+            <div class="bottom">
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon">
+                        <div class="imgbx">
+                            <img class="pfp" src="./images/pfp.jpg" alt="profile-icon">
+                        </div>
+                    </span>
+                    <span class="text">Himanshu Verma</span>
+                </a>
+            </li>
+            <li>
+                <a class="side-content" href="#">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </div>
+        </ul>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
